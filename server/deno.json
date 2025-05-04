@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-env app-run.js"
+  },
+  "imports": {
+    "hono": "https://deno.land/x/hono@v3.7.2/mod.ts",
+    "@hono/node-server": "https://deno.land/x/hono@v3.7.2/adapter/node-server/index.ts",
+    "pg": "https://deno.land/x/postgresjs@v3.3.5/mod.ts"
+  }
+}
